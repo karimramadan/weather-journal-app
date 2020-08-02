@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+    display: grid;
+    text-align: center;
+}
+body{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: #f9f9f9;
+    background: radial-gradient(
+        circle farthest-side at center bottom,
+        #ffffff,
+        rgba(135,206,235, .5) 125%        
+    ), url(img/white-clouds.png) no-repeat;
+    font-family: "karla", sans-serif;
+}
+#app{
+    margin: auto;
+    padding: 2.5rem;
+    border-radius: 4px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.holder{
+    text-align: left;
+}
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+    padding: 1rem;
+}
+
+#entryHolder{
+    color: #fff;
+}
+.headline {
+    text-align: center;
+}
+.title{
+    color: #fff;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    margin-bottom: .5rem;
+}
+
+input{
+    display:block;
+    width: 500px;
+    background:rgba(135,206,235, .5);
+    border: none;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    font-family: "karla", sans-serif;
+    height: 30px;
+}
+
+button{
+    width: 100%;
+    background: #3b4a6b;
+    font-size: 1.5em;
+    border: none;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    font-family: "karla", sans-serif;
+    color: #fff;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
