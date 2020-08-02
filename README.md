@@ -7,9 +7,9 @@ This repo includes the Weather-Journal App project for Udacity's Web Development
 This project is an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 
 ## Dependencies
-Express
-Body Parser
-CORS
+- Express
+- Body Parser
+- CORS
 
 ## how to run the project
 - Clone the project to your local machine
